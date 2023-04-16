@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-family: "itc-avant-garde-gothic-pro";
     font-style: normal;
     font-weight: 300;
     /* font-family: "Space Mono", Arial, serif;
@@ -65,10 +65,17 @@ p {
   margin-bottom: 30px;
 }
 
-h1, h2, h3, h4, h5, h6, figure {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+figure {
   color: #000;
-  font-family: "Space Mono", Arial, serif;
-  font-weight: 400;
+  font-family: "itc-avant-garde-gothic-pro";
+    font-style: normal;
+    font-weight: 300;
   margin: 0 0 20px 0;
 }
 
@@ -1090,9 +1097,10 @@ input[type="text"] {
 .btn {
   margin-right: 4px;
   margin-bottom: 4px;
-  font-family: "Space Mono", Arial, serif;
+  font-family: "itc-avant-garde-gothic-pro";
   font-size: 16px;
-  font-weight: 400;
+  font-style: normal;
+    font-weight: 300;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
